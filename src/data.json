@@ -1,0 +1,237 @@
+[
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_classico_250g_0.png",
+    "name": "Classico",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 6.04
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_lilla_e_rose_250g.png",
+    "name": "Lilla e Rose",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 18,
+    "price": 6.04
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_lussuria_250g.png",
+    "name": "Lussuria",
+    "weight": 250,
+    "sort": "Arabica, Robusta",
+    "extraxtion": 19,
+    "price": 5.84
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_pura_vida_250g.png",
+    "name": "Pura Vida",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 6.45
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_rosso_e_nero_250g.png",
+    "name": "Rosso & Nero",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 21,
+    "price": 6.45
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_sera_250g.png",
+    "name": "Sera",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 22,
+    "price": 6.55
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_verde_250g.png",
+    "name": "Verde",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 6.35
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_classico_250g_0.png",
+    "name": "Classico",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 20
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_lilla_e_rose_250g.png",
+    "name": "Lilla e Rose",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 18,
+    "price": 20
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_lussuria_250g.png",
+    "name": "Lussuria",
+    "weight": 1000,
+    "sort": "Arabica, Robusta",
+    "extraxtion": 19,
+    "price": 20
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_pura_vida_250g.png",
+    "name": "Pura Vida",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 22
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_rosso_e_nero_250g.png",
+    "name": "Rosso & Nero",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 21,
+    "price": 22
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_sera_250g.png",
+    "name": "Sera",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 22,
+    "price": 22
+  },
+  {
+    "brand": "Blasercafé",
+    "img": "Blasercafe_verde_250g.png",
+    "name": "Verde",
+    "weight": 1000,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 20
+  },
+  {
+    "brand": "Malongo",
+    "img": "CHRgrains-bluemountain.jpg",
+    "name": "Blue Mountain",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 22,
+    "price": 30
+  },
+  {
+    "brand": "Malongo",
+    "name": "Hawaii",
+    "img": "CHRgrains-hawai.jpg",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 21,
+    "price": 30
+  },
+  {
+    "brand": "Malongo",
+    "name": "Kenya",
+    "img": "CHRgrains-kenya.jpg",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 30
+  },
+  {
+    "brand": "Malongo",
+    "name": "Ristretto",
+    "img": "CHRgrains-ristretto.jpg",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 22,
+    "price": 30
+  },
+  {
+    "brand": "Malongo",
+    "name": "Coffee from the World",
+    "img": "terroir-grains-420x420.jpg",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 21,
+    "price": 30
+  },
+  {
+    "brand": "Malongo",
+    "name": "Cachet d'Or",
+    "img": "PAQUET-GRAINS-500G-CACHET-DOR.jpg",
+    "weight": 500,
+    "sort": "Arabica",
+    "extraxtion": 19,
+    "price": 40
+  },
+  {
+    "brand": "Illy",
+    "name": "Classico",
+    "img": "illy_classic.jpg",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 14.99
+  },
+  {
+    "brand": "Illy",
+    "name": "Intenso",
+    "img": "INTENSO_BEANS-FRONT.png",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 22,
+    "price": 14.99
+  },
+  {
+    "brand": "Illy",
+    "name": "Decaffeinated Classico",
+    "img": "illy_250G-US_DECAFFEINATO_BEANS-FRONT.png",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 18,
+    "price": 14.99,
+    "decaffeinated": "true"
+  },
+  {
+    "brand": "Illy",
+    "name": "Costa Rica",
+    "img": "illy_250g_costarica_3d_front_us_high.png",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 14.99
+  },
+  {
+    "brand": "Illy",
+    "name": "Etiopia",
+    "img": "illy_250g_Etiopia_3D_Front_USA_High.png",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 14.99
+  },
+  {
+    "brand": "Illy",
+    "name": "Brasile",
+    "img": "illy_250g_Brasile_3D_Front_USA_High.png",
+    "weight": 250,
+    "sort": "Arabica",
+    "extraxtion": 20,
+    "price": 14.99
+  }
+]

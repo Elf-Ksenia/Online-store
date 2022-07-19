@@ -1,0 +1,89 @@
+@use "@material/slider/styles";
+@use "@material/checkbox";
+@use "@material/form-field";
+@use "@material/drawer";
+
+@include drawer.core-styles;
+
+@include checkbox.core-styles;
+@include form-field.core-styles;
+
+body {
+	font: 300 1em 'Fira Sans', sans-serif;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+	font-weight: 300;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.container {
+	display: flex;
+	margin: 0 10px;
+}
+
+.header__logo img {
+	width: 80px;
+	height: auto;
+}
+
+.header__title {
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+.footer__rs-logo {
+	width: 100px;
+	height: auto;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	width: fit-content;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.nav__item {
+	margin: 10px 0;
+}
+
+.mdc-drawer {
+	width: 500px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 10px;
+	background-color: #6200ee8a;
+}
+
+.material-icons-cart {
+	font-size: 3em;
+}
+
+.header__cart-counter {
+	background-color: #018786;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+}

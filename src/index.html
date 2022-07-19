@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online-store</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo"><img src="asset/img/logo.png" alt="logo"></div>
+    <h1 class="header__title">Coffee Store</h1>
+    <div class="header__cart">
+      <span class="material-icons material-icons-cart">shopping_cart</span>
+      <span class="header__cart-counter">0</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="mdc-drawer">
+      <div class="mdc-drawer__content">
+        <nav class="nav">
+          <div class="nav__item">
+            <input type="text" class="search" placeholder="Search.." title="Type in a category">
+          </div>
+          <div class="nav__item price-filter">
+            <h3 class="nav__item-name">Price</h3>
+            <div class="mdc-slider mdc-slider--range mdc-slider--discrete">
+              <input class="mdc-slider__input min-price" type="range" min="0" max="50" value="5" step="5" name="rangeStart" aria-label="Discrete range slider demo" id = "lower-price">
+              <input class="mdc-slider__input max-price" type="range" min="10" max="100" value="50" step="5" name="rangeEnd" aria-label="Discrete range slider demo" id = "higher-price">
+              <div class="mdc-slider__track">
+                <div class="mdc-slider__track--inactive"></div>
+                <div class="mdc-slider__track--active">
+                  <div class="mdc-slider__track--active_fill"></div>
+                </div>
+              </div>
+              <div class="mdc-slider__thumb">
+                <div class="mdc-slider__value-indicator-container" aria-hidden="true">
+                  <div class="mdc-slider__value-indicator">
+                    <span class="mdc-slider__value-indicator-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div class="mdc-slider__thumb-knob"></div>
+              </div>
+              <div class="mdc-slider__thumb">
+                <div class="mdc-slider__value-indicator-container" aria-hidden="true">
+                  <div class="mdc-slider__value-indicator">
+                    <span class="mdc-slider__value-indicator-text">
+                      50
+                    </span>
+                  </div>
+                </div>
+                <div class="mdc-slider__thumb-knob"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-filter nav__item">
+            <h3 class="nav__item-name">Brand</h3>
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="malongo" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="malongo">Malongo</label>
+            </div>
+
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="blasercafé" value="blasercafé"/>
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="blasercafe">Blasercafé</label>
+            </div>
+
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="illy"/>
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="illy">Illy</label>
+            </div>
+          </div>
+
+          <div class="weight-filter nav__item">
+            <h3 class="nav__item-name">Weight</h3>
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="250" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="250">250g</label>
+            </div>
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="1000" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="1000">1000g</label>
+            </div>
+          </div>
+
+          <div class="blend-filter nav__item">
+            <h3 class="nav__item-name">Blend</h3>
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="arabica" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="arabica">Arabica</label>
+            </div>
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="robusta" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="robusta">Robusta</label>
+            </div>
+          </div>
+
+          <div class="extraction-filter nav__item">
+            <h3 class="nav__item-name">Extraction</h3>
+            
+          </div>
+
+          <div class="coffeine-filter nav__item">
+            <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="decaffeinated"/>
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+              </div>
+              <label for="decaffeinated">Decaffeinated</label>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </aside>
+    <main class="main">
+
+    </main>
+  </div>
+  <footer class="footer">
+      <a href="https://rs.school/js/" class="footer__rs-logo"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-school logo"></a>
+      <div class="footer__link">
+        <a href="https://github.com/rolling-scopes-school/elf-ksenia-JSFE2022Q1">I'm not a wizard, I only learn...</a>
+      </div>
+  </footer>
+  <!-- <script src="index.js"></script> -->
+</body>
+
+</html>

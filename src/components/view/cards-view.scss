@@ -1,0 +1,34 @@
+@use "@material/card";
+@use "@material/button/styles";
+
+@include card.core-styles;
+
+.mdc-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.mdc-card__name {
+letter-spacing: 0.1em;
+}
+
+.mdc-card__img {
+  margin: 0 auto;
+  max-width: 200px;
+
+}
+
+.mdc-card__price, .mdc-card__extraction {
+  margin-top: 10px;
+}
+
+.mdc-card__brand {
+  font-size: 1em;
+}
+
+.mdc-button {
+  width: fit-content;
+  margin: 20px auto;
+}

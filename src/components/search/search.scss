@@ -1,0 +1,16 @@
+.search:focus-visible {
+outline: none;
+}
+
+.search {
+    font: 300 1em 'Fira Sans', sans-serif;
+    height: fit-content;
+    color: #333;
+}
+
+@media (max-width: 400px) {
+    .search {
+        font-size: 0.8em;
+        }
+}
+
